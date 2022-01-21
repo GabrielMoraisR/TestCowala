@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cowala Desafio FrontEnd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<main>
+
+    <body>
+        <div class="top">
+            <span>
+                <img src="./img/logoCowala.svg" alt="Logo-Cowala">
+            </span>
+        </div>
+
+        <div class="information-fields">
+            <form href="index.html" onsubmit="return guardarInfos();">
+
+                <div>
+                    <label for="name" id="name">Nome</label>
+                    <input type="text" id="name-field">
+                </div>
+
+                <div>
+                    <label for="profissao" id="label-profession">Profissão</label>
+                    <input type="text" id="profession-field">
+                </div>
+
+                <div>
+                    <label for="telephone" id="label-telephone"> Celular </label>
+                    <input type="text" id="telephone-field">
+                </div>
+
+                <div>
+                    <label for="ip_address" id="myIP"> IP </label>
+                    <input type="text" id="ip_address">
+                    <div>
+                        <button id="findIP" onsubmit="return XMLHttpRequest();">ENCONTRAR IP</button>
+                    </div>
+                </div>
+
+                <div class="salvar" onsubmit=" return guardarinfos();">
+                    <button type="submit" id="save">Salvar</button>
+                </div>
+                <div class="limpar">
+                    <button type="reset" id="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</main>
+
+    <script src="scripts.js"></script>
+
+</html>

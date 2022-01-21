@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+html, body {
+    display: grid;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: 778px;
+    background-color: #ffffff;
+}
+
+.top {
+    position: absolute;
+    width: 1440px;
+    height: 121px;
+    left: 0px;
+    top: 0px;
+    background: #0a1633;
+}
+
+.information-fields {
+    position: absolute;
+    width: 1103px;
+    height: 459px;
+    left: 123px;
+    top: 190px;
+    right: 123px;
+    left: 123px;
+    background-color: #EDEDED;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span {
+    position: absolute;
+    width: 88px;
+    height: 96px;
+    left: 28px;
+    top: 12px;
+}
+
+#name {
+    position: absolute;
+    width: 49px;
+    height: 21px;
+    left: 327px;
+    top: 44px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#name-field {
+    position: absolute;
+    width: 541px;
+    height: 44px;
+    left: 327px;
+    top: 70px;
+    background: #ffffff8c;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+#label-profession{
+    position: absolute;
+    width: 77px;
+    height: 21px;
+    left: 327px;
+    top: 134px;
+    font-weight: 500;
+}
+
+#profession-field{
+    position: absolute;
+    width: 254px;
+    height: 44px;
+    left: 327px;
+    top: 160px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+#label-telephone{
+    position: absolute;
+    width: 57px;
+    height: 21px;
+    left: 614px;
+    top: 134px;
+    font-weight: 500;
+    color: #000000
+}
+
+#telephone-field{
+    position: absolute;
+    width: 254px;
+    height: 44px;
+    left: 614px;
+    top: 160px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+#myIP{
+    position: absolute;
+    width: 57px;
+    height: 21px;
+    left: 327px;
+    top: 224px;
+    font-weight: 500;
+}
+
+#ip_address {
+    position: absolute;
+    width: 325px;
+    height: 44px;
+    left: 327px;
+    top: 250px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.20);
+}
+
+#findIP{
+    position: absolute;
+    width: 183px;
+    height: 44px;
+    left: 670px;
+    top: 250px;
+    background: #00d9d0;
+    border-radius: 10px;
+}
+
+#findIP:hover{
+    cursor: pointer;
+}
+
+#save{
+    position: absolute;
+    width: 139px;
+    height: 44px;
+    left: 442px;
+    top: 356px;
+    background: #0a1633;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+#save:hover{
+    cursor: pointer;
+}
+
+#reset{
+    position: absolute;
+    width: 139px;
+    height: 44px;
+    left: 614px;
+    top: 356px;
+    background: #0a1633;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+#reset:hover{
+    cursor: pointer;
+}
