@@ -1,4 +1,4 @@
-# Cowala
+# Cowala Teste 
 
 
 ## 💻 Pré-requisitos
@@ -14,4 +14,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 *  HTML
 *  CSS
 *  Javascript
+
+## 💻 Objetivo
+Este projeto teve como objetivo desenvolver um desafio técnico para teste na empresa COWALA 
 
